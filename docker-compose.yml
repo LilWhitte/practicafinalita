@@ -16,7 +16,7 @@ mysql_data:/var/lib/mysql
 
   phpmyadmin:
     image: phpmyadmin
-    ports:
+    ports: 8080:80
       
 "9090:80"
   environment:
